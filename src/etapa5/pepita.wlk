@@ -1,4 +1,6 @@
 import comidas.*
+import destinos.*
+
 
 /*
  * Agregar
@@ -7,7 +9,9 @@ import comidas.*
  */
  
 object pepita {
-	var energia
+	var energia=0
 	method energia() { return energia }
 	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
+	
+	method visitar(lugar){energia += lugar.energiaRevitalizadora()}
 }

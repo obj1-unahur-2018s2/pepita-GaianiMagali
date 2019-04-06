@@ -9,8 +9,6 @@ object pepon {
 	method haceLoQueQuieras() { self.volar(1)}   
 }
 
-// implementar el objeto entero, salvo haceLoQueQuieras que lo damos hecho
-// ayuda: conviene ponerle dos atributos
 object pipa {
 	var kilometros=0
 	var gramosIngeridos=0

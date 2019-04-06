@@ -1,3 +1,4 @@
+
 import pepita.*
 import comidas.*
 import masAves.*
@@ -16,5 +17,9 @@ object roque {
 		pupilo.haceLoQueQuieras()
 	}
 	
-	
+	method pupiloActual(){
+		return pupilo
+	}
+
+}
 
